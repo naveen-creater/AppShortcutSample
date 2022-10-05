@@ -1,0 +1,2 @@
+# AppShortcutSample
+Android shortcut sample
