@@ -2,7 +2,7 @@
     <string name="app_name">DeeplinkApp</string>
     <string name="DisableMessage">DisableMessage</string>
     <string name="Label">Label</string>
-    <string name="Long_Label">Long Label</string>
+    <string name="Long_Label">Long Label for showing</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
     <!-- Preference Titles -->

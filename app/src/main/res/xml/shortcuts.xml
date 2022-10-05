@@ -6,6 +6,7 @@
         android:icon="@drawable/ic_launcher_background"
         android:shortcutShortLabel="@string/Label"
         android:shortcutLongLabel="@string/Long_Label"
+        android:shortcutDisabledMessage="@string/DisableMessage"
         >
         <intent
             android:action="android.intent.action.VIEW"
