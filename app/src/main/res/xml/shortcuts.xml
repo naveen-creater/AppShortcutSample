@@ -6,13 +6,44 @@
         android:icon="@drawable/ic_launcher_background"
         android:shortcutShortLabel="@string/Label"
         android:shortcutLongLabel="@string/Long_Label"
-        android:shortcutDisabledMessage="@string/DisableMessage"
-        >
+        android:shortcutDisabledMessage="@string/DisableMessage">
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="com.example.deeplinkapp"
             android:targetClass="com.example.deeplinkapp.MainActivity" />
        
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="MainActivity2"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:shortcutShortLabel="@string/Label_two"
+        android:shortcutLongLabel="@string/Long_Label"
+        android:shortcutDisabledMessage="@string/DisableMessage">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.deeplinkapp"
+            android:targetClass="com.example.deeplinkapp.MainActivity2" />
+
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="MainActivity3"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:shortcutShortLabel="@string/Label_three"
+        android:shortcutLongLabel="@string/Long_Label"
+        android:shortcutDisabledMessage="@string/DisableMessage">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.deeplinkapp"
+            android:targetClass="com.example.deeplinkapp.MainActivity3" />
+
         <categories android:name="android.shortcut.conversation" />
         <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
     </shortcut>

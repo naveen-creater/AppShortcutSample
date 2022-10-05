@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">DeeplinkApp</string>
     <string name="DisableMessage">DisableMessage</string>
-    <string name="Label">Label</string>
+    <string name="Label">Activity One</string>
+    <string name="Label_two">Activity Two</string>
+    <string name="Label_three">Activity three</string>
     <string name="Long_Label">Long Label for showing</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
